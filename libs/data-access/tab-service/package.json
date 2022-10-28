@@ -1,0 +1,26 @@
+{
+  "name": "@techextensor/tab-service",
+  "version": "0.0.193",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "updateVersion": "npm version patch"
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0",
+    "@ngrx/store": "^13.2.0"
+  },
+  "dependencies": {
+    "@ngrx/store": "^13.0.2",
+    "@types/lodash": "^4.14.182",
+    "lodash": "^4.17.21",
+    "lodash.merge": "^4.6.2",
+    "ngrx-store-localstorage": "^13.0.1",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.7"
+  }
+}

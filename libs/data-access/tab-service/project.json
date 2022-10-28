@@ -1,0 +1,29 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/data-access/tab-service/src",
+  "prefix": "techextensor",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:package",
+      "outputs": [
+        "dist/libs/data-access/tab-service"
+      ],
+      "options": {
+        "project": "libs/data-access/tab-service/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/data-access/tab-service/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/data-access/tab-service/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  },
+  "tags": [
+    "scope:data-access",
+    "type:tab-service"
+  ]
+}

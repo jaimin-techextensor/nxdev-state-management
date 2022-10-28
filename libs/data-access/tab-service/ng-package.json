@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../dist/libs/data-access/tab-service",
+  "lib": {
+    "entryFile": "src/index.ts"
+  },
+  "allowedNonPeerDependencies": [
+    "lodash",
+    "@types/lodash",
+    "ngrx-store-localstorage",
+    "lodash.merge",
+    "@ngrx/store",
+    "@types/lodash.merge"
+  ]
+}
